@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            margin: 0;
+        }
+        .main {
+            
+            margin: 0;
+            padding: 50px 50px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            
+            background-image: url(http://static.businessworld.in/article/article_extra_large_image/1620727204_yRZbrh_Untitled.png);
+        }
+        .container {
+            margin: 50px;
+            background-color:  darkgrey;
+            opacity:60% ;
+            padding: 50px 20px;
+            box-shadow: 3px 3px rgb(30, 150, 110);
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <h1 style="text-align: center;color: burlywood;">Fill The Form</h1>
+        <div class="container">
+            <table>
+                <tr>
+                    <td>
+                        Name:
+                    </td>
+                    <td>
+                        <input type="text" minlength="3">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Email ID:
+                    </td>
+                    <td>
+                        <input type="email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Phone No:
+                    </td>
+                    <td>
+                        +91<input type="tel" minlength="10" maxlength="10">
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <label for="selector">Highest Qualification:</label><br>
+            <select id="selector">
+                <option>B.E / B-Tech </option>
+                <option>Diploma</option>
+                <option>12th</option>
+                <option selected>10th</option>
+            </select> <br>
+            <br>
+            <label for="select">What type of Job oppoutunity you're looking for?:</label><br>
+            <select id="selector">
+                <option>FrontEnd Developer</option>
+                <option>Java Developer</option>
+                <option>Backend Developer</option>
+                <option selected>Data Analyst</option>
+            </select><br>
+            <br>
+            What skills do you have as of now?<br>
+            Java<input type="checkbox"> HTML<input type="checkbox"> <br>
+            CSS<input type="checkbox"> JavaScript<input type="checkbox"> <br>
+            ReactJs<input type="checkbox"> BootStrap<input type="checkbox"> <br>
+            C++<input type="checkbox"> OOPs<input type="checkbox"> <br>
+            <br>
+            Do you have some earlier work experience? Yes<input type="radio" name="option"> No<input type="radio"
+                name="option"><br>
+                <br>
+            <h3>Would you like to share some work <small style="font-style: italic;">(It will help us to help
+                    you!)</small></h3>
+            <textarea rows="4" cols="40" placeholder="Please paste your Github repo link" ;>
+
+            </textarea>
+
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>
